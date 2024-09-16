@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: ThreeSmallMethodsTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.131 s <<< FAILURE! - in ThreeSmallMethodsTest
+firstTwoDigitIntegerShouldhandleNegativeNumbers  Time elapsed: 0.041 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-17> but was: <-1>
+	at ThreeSmallMethodsTest.firstTwoDigitIntegerShouldhandleNegativeNumbers(ThreeSmallMethodsTest.java:81)
+
+isYoungShouldEvaluate1AsYoung  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ThreeSmallMethodsTest.isYoungShouldEvaluate1AsYoung(ThreeSmallMethodsTest.java:25)
+
+firstTwoDigitIntegerShouldBe12  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <12> but was: <-1>
+	at ThreeSmallMethodsTest.firstTwoDigitIntegerShouldBe12(ThreeSmallMethodsTest.java:63)
+
+firstTwoDigitIntegerShouldBe15  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15> but was: <-1>
+	at ThreeSmallMethodsTest.firstTwoDigitIntegerShouldBe15(ThreeSmallMethodsTest.java:56)
+
+hasLegalGenderManInSwedenShouldEvaluateToMale{String}[1]  Time elapsed: 0.027 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ThreeSmallMethodsTest.hasLegalGenderManInSwedenShouldEvaluateToMale(ThreeSmallMethodsTest.java:50)
+
+hasLegalGenderManInSwedenShouldEvaluateToMale{String}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ThreeSmallMethodsTest.hasLegalGenderManInSwedenShouldEvaluateToMale(ThreeSmallMethodsTest.java:50)
+
+hasLegalGenderManInSwedenShouldEvaluateToMale{String}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ThreeSmallMethodsTest.hasLegalGenderManInSwedenShouldEvaluateToMale(ThreeSmallMethodsTest.java:50)
+
+isYoungShouldEvaluate30AsYoung  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ThreeSmallMethodsTest.isYoungShouldEvaluate30AsYoung(ThreeSmallMethodsTest.java:13)
+
+firstTwoDigitIntegerShouldSkip3DigitNumbers  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <12> but was: <-1>
+	at ThreeSmallMethodsTest.firstTwoDigitIntegerShouldSkip3DigitNumbers(ThreeSmallMethodsTest.java:75)
+
